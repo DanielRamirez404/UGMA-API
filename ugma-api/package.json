@@ -1,0 +1,28 @@
+{
+  "name": "ugma-api",
+  "version": "1.0.0",
+  "description": "RESTful API built for the UGMA",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielRamirez404/UGMA-API.git"
+  },
+  "keywords": [
+    "RESTful API",
+    "Backend"
+  ],
+  "author": "DanielRamirez404",
+  "license": "GPL-3.0",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/DanielRamirez404/UGMA-API/issues"
+  },
+  "homepage": "https://github.com/DanielRamirez404/UGMA-API#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
