@@ -5,7 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch src/server.js"
+    "dev": "npx tsx watch src/server.ts",
+    "build": "npx tsc && node dist/server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,14 @@
   },
   "homepage": "https://github.com/DanielRamirez404/UGMA-API#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "@types/express": "^5.0.5",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^24.10.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
   }
 }
